@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D14D7D52BCD719400327881 /* Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D14D7D32BCD719400327881 /* Chat.xcdatamodeld */; };
 		9D583BD52BCBB42E00BC9C69 /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = 9D583BD42BCBB42E00BC9C69 /* GoogleGenerativeAI */; };
-		9D6338BE2BC922C600A2744E /* Chat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D6338BC2BC922C600A2744E /* Chat.xcdatamodeld */; };
 		9D6338C12BC923E000A2744E /* ChatMessageItem+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6338BF2BC923E000A2744E /* ChatMessageItem+CoreDataClass.swift */; };
 		9D6338C22BC923E000A2744E /* ChatMessageItem+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6338C02BC923E000A2744E /* ChatMessageItem+CoreDataProperties.swift */; };
 		9DEDFA732BC91FD000AF619C /* GeminiRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEDFA582BC91FD000AF619C /* GeminiRole.swift */; };
@@ -26,8 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D14D7D42BCD719400327881 /* Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat.xcdatamodel; sourceTree = "<group>"; };
 		9D47223F29B46764005BD7E1 /* GeminiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeminiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D6338BD2BC922C600A2744E /* Chat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Chat.xcdatamodel; sourceTree = "<group>"; };
 		9D6338BF2BC923E000A2744E /* ChatMessageItem+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatMessageItem+CoreDataClass.swift"; sourceTree = "<group>"; };
 		9D6338C02BC923E000A2744E /* ChatMessageItem+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ChatMessageItem+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		9DEDFA582BC91FD000AF619C /* GeminiRole.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GeminiRole.swift; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				9DEDFA612BC91FD000AF619C /* View */,
 				9DEDFA632BC91FD000AF619C /* ViewModel */,
 				9DEDFA642BC91FD000AF619C /* Assets.xcassets */,
-				9D6338BC2BC922C600A2744E /* Chat.xcdatamodeld */,
+				9D14D7D32BCD719400327881 /* Chat.xcdatamodeld */,
 				9DEDFA662BC91FD000AF619C /* GeminiChatApp.swift */,
 				9DEDFA672BC91FD000AF619C /* debug.swift */,
 				9DEDFA682BC91FD000AF619C /* Persistence.swift */,
@@ -231,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D14D7D52BCD719400327881 /* Chat.xcdatamodeld in Sources */,
 				9DEDFA782BC91FD000AF619C /* ChatView.swift in Sources */,
 				9DEDFA742BC91FD000AF619C /* CoreDataController.swift in Sources */,
 				9DEDFA7A2BC91FD000AF619C /* ChatViewModel.swift in Sources */,
@@ -242,7 +243,6 @@
 				9DEDFA7F2BC91FD000AF619C /* Persistence.swift in Sources */,
 				9DEDFA752BC91FD000AF619C /* UserDefaultsKey.swift in Sources */,
 				9DEDFA7D2BC91FD000AF619C /* GeminiChatApp.swift in Sources */,
-				9D6338BE2BC922C600A2744E /* Chat.xcdatamodeld in Sources */,
 				9DEDFA732BC91FD000AF619C /* GeminiRole.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,12 +465,12 @@
 /* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
-		9D6338BC2BC922C600A2744E /* Chat.xcdatamodeld */ = {
+		9D14D7D32BCD719400327881 /* Chat.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				9D6338BD2BC922C600A2744E /* Chat.xcdatamodel */,
+				9D14D7D42BCD719400327881 /* Chat.xcdatamodel */,
 			);
-			currentVersion = 9D6338BD2BC922C600A2744E /* Chat.xcdatamodel */;
+			currentVersion = 9D14D7D42BCD719400327881 /* Chat.xcdatamodel */;
 			name = Chat.xcdatamodeld;
 			path = /Users/haruhito/Git/SwiftUI/GeminiChatApp/ChatGPT/GeminiChat/Chat.xcdatamodeld;
 			sourceTree = "<group>";
